@@ -1,0 +1,120 @@
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+/* 全域 */
+*,*::before,*::after{
+    box-sizing: border-box;
+    /* outline: blue solid 1px; */
+
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle; /* 基準線對齊，使圖片垂直置中 */
+}
+
+a{
+    text-decoration: none;  /* 連結沒有下底線 */
+    color: black; /* 也可以設計 color:inherit; 跟隨父層變動*/ 
+}
+
+body {
+    /* 設計稿內都是同樣字體 */
+    font-family: "Castoro", "Microsoft JhengHei" ,serif;  /* 字體套用順序從左到右，找不到就往下找  */
+    line-height: 1.5; /* 行高可以從字體大小(px)除以行高(px)得到結果；另外實際高度不是由size決定，而是lh決定。 */
+    font-size: 24px; /* 按照文中大部分的字體大小來調整 */
+    /* max-width: 100%; */
+}
+
+h1,h2{
+    font-size: 128px;
+    letter-spacing: 0.12em; /* 計算文字大小乘以設定倍率 */
+}
+
+h3{
+    color: #AE0000;
+    border-bottom: 3px solid #AE0000;
+    font-size: 40px;
+    margin: 40px 0 16px 0;
+}
+
+.year{
+    font-size: 20px;
+    font-style: italic;
+    color: #949494;
+}
+
+.fs-1-text{
+    font-size: 32px;
+}
+
+.fs-2-text{
+    font-size: 24px;
+}
+
+
+
+.container{
+    width: 1296px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.banner-img{
+    text-align: center;
+}
+
+.banner-margin-top{
+    margin-top: 160px;
+}
+
+.text-mb-8px{
+    margin-bottom: 8px;
+}
+.text-mb-12px{
+    margin-bottom: 12px;
+}
+
+.text-mb-16px{
+    margin-bottom: 16px;
+}
+
+.w-50pa{
+    width: 50%;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.dsc{
+    background-color: #EFEFEF;
+    width: 100%;
+    margin: 0 0 80px 0;
+
+}
+.dsc p{
+    /* margin-left: 660px; */
+    padding: 48px 0 48px 0;
+}
+
+footer{
+    margin: 160px auto 0 auto;
+    background-color: #000;
+}
+
+.footer-ul {
+    text-align: center;
+    padding: 64px 0 64px 0;
+}
+
+.footer-ul li{
+    display: inline;
+
+}
+
+.margin-LR-40px{
+    margin: 0 40px 0 40px;
+}
